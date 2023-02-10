@@ -1,0 +1,150 @@
+.home{
+    width:70vw;
+    height:100vh;
+    background-color: rgb(253, 251, 251);
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left:200px;
+   
+    
+}
+.home-div1{
+    background: linear-gradient(90deg, rgba(108,62,96,1) 80%, rgba(75,3,93,0.4654236694677871) 99%);
+    border:10px solid white;
+    border-radius:50px;
+    padding:30px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: rgba(88, 41, 90, 0.35) 0px 5px 15px;
+   
+   
+    
+}
+.home-div1 h2{
+ color:white;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.common{
+    padding:10px;
+   
+    /* text-align: center; */
+    border-radius:50px;
+    background-color: white;
+    display:flex;
+    flex-direction: row;
+    
+   
+    
+  }
+  .budget{
+   
+    background-color: white;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+   
+  }
+  .budget button{
+    width:20%;
+    height:30px;
+    background: linear-gradient(90deg, rgba(108,62,96,1) 80%, rgba(75,3,93,0.4654236694677871) 99%);
+    cursor: pointer;
+    color:white;
+    border:none;
+  }
+  .remaining{
+ 
+   padding-left:50px;
+   
+ }
+ .spent{
+    padding-left:50px;
+ }
+ .home-div2{
+
+    background-color: white;
+    border:10px solid white;
+    border-radius:50px;
+    padding:30px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+ }
+
+ .expenses{
+    width:100%;
+    height:100%;
+    
+   
+   
+    
+   
+  }
+  .expenses-map{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    border: 1px solid rgba(143, 7, 143, 0.658);
+    font-size:17px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+   
+  }
+  .del{
+    
+    color:rgba(143, 7, 143, 0.658);
+    border:none;
+    padding:5px;
+    font-size: 18px;
+    cursor:pointer;
+  }
+  .search input{
+    width:97%;
+    height:20px;
+    border-radius: 5px;
+    padding:5px;
+    border:none;
+    border-bottom:2px solid rgba(143, 7, 143, 0.658);
+  }
+  .search{
+    margin-bottom:20px;
+    
+   
+  }
+  .add-expense{
+   
+    width:100%;
+    
+  }
+  .add-expense form input{
+    width:100%;
+    height:30px;
+    margin-right:10px;
+    border-radius: 5px;
+    border:none;
+    border-bottom:2px solid rgba(143, 7, 143, 0.658);
+    margin-bottom:15px;
+  }
+  .add-expense button{
+    width:50%;
+    height:40px;
+    background-color: rgba(110, 8, 110, 0.658);
+    color:white;
+    border-radius:15px;
+    color:white;
+    font-size: 14px;
+    font-weight: 800;
+    border: none;
+  }
+  .price{
+    font-size: 20px;
+    color:rgba(110, 8, 110, 0.658);
+    font-weight: 900;
+    padding-left:10px;
+  }

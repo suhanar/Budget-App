@@ -1,0 +1,100 @@
+.home{
+  display:grid;
+  grid-template-rows: 50px repeat(3,1fr);
+  position:relative;
+  
+}
+.home h2{
+  margin-left:50px;
+  
+}
+
+
+.home-first{
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  gap:20px;
+  margin:50px;
+  
+}
+.common{
+  padding:30px;
+ 
+  text-align: center;
+}
+.budget{
+ 
+  background-color: aqua;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+ 
+}
+.budget button{
+  width:20%;
+  height:30px;
+  background-color: rgb(16, 202, 56);
+  
+}
+.remaining{
+ 
+   background-color: rgb(56, 136, 10); 
+  
+}
+.spent{
+  background-color: aquamarine;
+}
+.expenses{
+  width:50%;
+  position:absolute;
+  left:400px;
+ 
+}
+.expenses-map{
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  border: 1px solid rgb(190, 187, 187);
+  font-size:20px;
+  text-align: center;
+ 
+  
+ 
+}
+.del{
+  background-color: red;
+  color:white;
+}
+.add-expense{
+  position: absolute;
+  width:100%;
+  left:400px;
+}
+.add-expense form input{
+  width:20%;
+  height:30px;
+  margin-right:10px;
+}
+.add-expense button{
+  width:10%;
+  height:40px;
+  background-color: brown;
+  color:white;
+}
+.alert{
+  background-color: red;
+}
+.notalert{
+  background-color: rgb(14, 173, 9);
+}
+.search input{
+  width:97%;
+  height:30px;
+  border-radius: 15px;
+  padding:5px
+}
+.search{
+  margin-bottom:20px;
+  
+ 
+}
