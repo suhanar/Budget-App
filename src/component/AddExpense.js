@@ -17,7 +17,7 @@ function AddExpense() {
         <h2>Add Expense</h2>
         <form onSubmit={handleSubmit}>
             <input type="text" placeholder="Name of your expense" value={name} onChange={(e)=>setName(e.target.value)} />
-            <input type="text" placeholder='Cost of your expense' value={cost} onChange={(e)=>setCost(e.target.value)} />
+            <input type="number" placeholder='Cost of your expense' value={cost} onChange={(e)=>setCost(e.target.value)} required/>
             <button>Save</button>
         </form>
     </div>
